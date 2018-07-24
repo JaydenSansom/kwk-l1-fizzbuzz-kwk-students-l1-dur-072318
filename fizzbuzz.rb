@@ -11,17 +11,19 @@
     
 #   else 
 #     print nil
-x = 21
+def fizzbuzz(x)
 
-if x % 3 == 0 && x % 5 == 0
-  puts "Fizzbuzz"
+  if x % 3 == 0 && x % 5 == 0
+  return "FizzBuzz"
   
-  elsif x % 3 == 0
-    puts "Fizz"
+    elsif x % 3 == 0
+    return "Fizz"
     
-  elsif x % 5 == 0
-    puts "Buzz"
+    elsif x % 5 == 0
+    return "Buzz"
   
-else
+  else
   
+  end
+
 end
